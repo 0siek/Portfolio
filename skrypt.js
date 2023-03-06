@@ -7,5 +7,21 @@ $(document).ready(function(){
             $(".sticky").removeClass("stickyadd");
         }
     })
-})
+
+    var typed = new Typed(".element",{
+        strings: ["Patrick K.","a Developer","a Businessman"],
+        smartBackspace: true,
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop : true,
+        loopcount:Infinity,
+        smartDelay: 1000
+
+    });
+
+
+
+
+
+});
 

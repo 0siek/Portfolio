@@ -14,9 +14,12 @@ p{
     color:#6c757d;
 
 }
-body{
-    background-color: black !important;
+
+.r-p{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
+
 
 /* Nawigacja */
 
@@ -66,6 +69,7 @@ nav.stickyadd .hamburger{
     color: #000
 }
 
+
 /*Header*/
  header{
     height: 100vh;
@@ -97,6 +101,43 @@ nav.stickyadd .hamburger{
 
 .content-box h1{
     font-size: 52px;
+}
+
+.content-box a{
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    padding: 5px 25px;
+}
+
+.content-box a:hover{
+    color: #000;
+    background: #fff;
+    transition: 0.5s all;
+
+}
+
+.content-box p{
+    color: #fff;
+}
+
+/*About*/
+.about li a{
+    color: #000;
+    display: inline-block;
+    height: 42px;
+    width: 42px; 
+    font-size: 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 50%;
+    line-height: 35px;
+    transition: 0.5s all;
+     text-align: center;  
+
+}
+.about li a:hover{
+    color:#EE8683
 }
 
 
