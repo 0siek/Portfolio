@@ -34,6 +34,12 @@ p[3].setAttribute("style", "width:69%; transition:1s all");
    offset: '90%'
 });
 
+var filterizd = $('.filter-container').filterizr({
+       animationDuration: .5,
+    
+    });
+
+
 });
 
 
