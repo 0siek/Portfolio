@@ -39,7 +39,13 @@ var filterizd = $('.filter-container').filterizr({
     
     });
 
+$('a').smoothScroll({
 
+     speed:2000,
+     });
+
+
+     
 });
 
 
